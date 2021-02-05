@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Images bookmarked{% endblock %}
+
+{% block content %}
+
+<h1>Book List</h1>
+<br />
+
+<div id='book-list'>
+  {% include "scroll/book/list_ajax.html" %}
+</div>
+
+{% endblock %}
+
